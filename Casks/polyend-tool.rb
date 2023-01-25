@@ -9,7 +9,7 @@ cask "polyend-tool" do
 
   livecheck do
     url "https://polyend.com/downloads/"
-    regex(/href=.*?Polyend_Tool_v?(\d+(?:\.\d+)+)_macOS\.zip\"/i)
+    regex(/href=.*?Polyend_Tool_v?(\d+(?:\.\d+)+)_macOS\.zip"/i)
   end
 
   auto_updates true
