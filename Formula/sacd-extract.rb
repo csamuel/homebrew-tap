@@ -1,7 +1,11 @@
 class SacdExtract < Formula
   desc "Improved sacd_extract"
-  homepage "https://github.com/setmind/sacd-ripper"
-  head "https://github.com/setmind/sacd-ripper.git", :revision => "58db5f16fcf410ae4d6aeca226a067b37ade136a"
+  homepage "https://github.com/csamuel/sacd-ripper"
+  url "https://github.com/csamuel/sacd-ripper/archive/refs/tags/v0.1-arm64.tar.gz"
+  sha256 "bb887d41a465015667b48faf31b078da64cfb4538a9d745fdac886861c2a98c4"
+  license "GPL-2.0"
+
+  head "https://github.com/csamuel/sacd-ripper.git", branch: "master"
 
   depends_on "cmake" => :build
 
